@@ -50,6 +50,6 @@ export class ProductosService {
     this.productoFiltrado = this.productos.filter(
       producto => producto.categoria.toLowerCase().includes(termino.toLowerCase())
     );
-    console.log(this.productoFiltrado);
+    // console.log(this.productoFiltrado);
   }
 }
